@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/RPP2207goldeneye/Atelier#readme",
   "jest": {
-    "verbose": true
+    "verbose": true,
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/client/src/styles/styleMock.js"
+    }
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

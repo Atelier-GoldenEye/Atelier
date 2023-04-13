@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../../../styles/overview.css'
 
 const ToggleOutfitStar = (props) => {
   let id = props.id

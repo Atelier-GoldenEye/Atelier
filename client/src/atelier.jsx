@@ -6,7 +6,6 @@ import { Overview } from './components/Overview.jsx';
 import { Related } from './components/Related.jsx';
 import { Questions } from './components/Questions.jsx';
 import { Reviews } from './components/Reviews.jsx';
-// import MetaTags from 'react-meta-tags';
 
 import './styles/questions.css';
 import './styles/related.css';
@@ -14,6 +13,7 @@ import './styles/reviews.css';
 import './styles/styles.css';
 import './styles/yourOutfit.css';
 import './styles/overview.css';
+
 
 export const App = (props) => {
   const sampleID = 71699;

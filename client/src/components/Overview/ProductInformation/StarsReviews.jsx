@@ -1,8 +1,6 @@
 import React from 'react'
 import { StarRating } from '../../shared/StarRating/StarRating.jsx'
 
-import * as css from '../../../styles/overview.css'
-
 
 const StarsReviews = (props) => {
   let ratings = props.ratings

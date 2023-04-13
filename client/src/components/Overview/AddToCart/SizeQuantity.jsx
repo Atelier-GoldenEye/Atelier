@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import AddToCart from './Cart.jsx'
 
-import '../../../styles/overview.css'
 
 const SizeQuantity = (props) => {
   let styleOptions = props.skus

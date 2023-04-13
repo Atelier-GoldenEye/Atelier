@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import '../../../styles/overview.css'
 
 const Style = (props) => {
   let style = props.style
