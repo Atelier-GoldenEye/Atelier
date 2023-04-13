@@ -40,9 +40,6 @@ Finally, in this section you can see a set of selections, a star button to toggl
 
 Underneath these two sections is a product slogan, description, and a few features.
 
-![Image](./README-Photos/overview-9.png)
-
-
 **#Related Products Widget:**
 This section displays similar products that users may be interested in. This wonderful carousel slides to the right and left. This is an ambi-turner. Each product displayed has an image, price, star rating, and an ability to "like" the product. The carousel
 
