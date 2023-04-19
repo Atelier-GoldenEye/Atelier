@@ -11,7 +11,6 @@ import SizeQuantity from './Overview/AddToCart/SizeQuantity.jsx'
 import DefaultGallery from './Overview/ImageGallery/DefaultGallery.jsx'
 import ExpandedGallery from './Overview/ImageGallery/ExpandedGallery.jsx'
 
-import '../styles/overview.css'
 import * as css from '../components/Overview/ImageGallery/ImageGalleryCSS.jsx'
 
 

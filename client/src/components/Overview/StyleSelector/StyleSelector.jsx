@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Style from './Style.jsx'
 
-import '../../../styles/overview.css'
 
 const StyleSelector = (props) => {
   let currentStyles = props.styles

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-import '../../../styles/overview.css'
 
 const FeaturesList = (props) => {
 

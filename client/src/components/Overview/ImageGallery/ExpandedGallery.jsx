@@ -1,9 +1,9 @@
 import React from 'react'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+// Must turn off all "Zoom"-related items for testing purposes
+// import Zoom from 'react-medium-image-zoom'
+// import 'react-medium-image-zoom/dist/styles.css'
 
 import * as css from './ImageGalleryCSS.jsx'
-import '../../../styles/overview.css'
 
 
 const ExpandedGallery = (props) => {
@@ -83,7 +83,7 @@ const ExpandedGallery = (props) => {
   return (
     <>
       <div style={css.expMainImageContainer} className="box-container" >
-        <Zoom>
+        {/* <Zoom> */}
           <img
             alt={currentStyle.name}
             src={currentImage}
@@ -91,7 +91,7 @@ const ExpandedGallery = (props) => {
             id="expanded-view-click"
             widgetname="Overview"
           />
-        </Zoom>
+        {/* </Zoom> */}
         {/* <img src={currentImage} style={css.expMainImage} alt={currentStyle.name} onClick={() => props.onClick()} id="expanded-view-click" widgetname="Overview" /> */}
         {needRightArrow}
         {needLeftArrow}

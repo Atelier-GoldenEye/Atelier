@@ -1,7 +1,6 @@
 import React from 'react'
 import FeaturesList from './FeaturesList.jsx'
 
-import '../../../styles/overview.css'
 
 const ProductOverview = (props) => {
   let slogan = props.slogan

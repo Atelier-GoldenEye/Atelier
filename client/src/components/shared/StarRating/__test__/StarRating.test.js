@@ -9,7 +9,7 @@ import '@testing-library/jest-dom';
 import React, { useEffect, useState } from "react";
 
 // subcomponents
-import { StarRating } from '../StarRating.jsx'
+import { StarRating } from '../StarRating'
 
 describe('Unit Test: StarRating component', () => {
 

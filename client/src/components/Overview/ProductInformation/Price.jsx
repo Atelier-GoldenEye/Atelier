@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../../../styles/overview.css'
 
 const Price = (props) => {
   let defaultPrice = '$' + props.price
